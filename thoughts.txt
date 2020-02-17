@@ -1,0 +1,227 @@
+HP = 40 ~ 99
+
+A,B,Y,X,L,R,ST,SE,DPAD
+
+Up = Action
+Left/Right = Move
+Down = Kneel
+
+R = Guard
+Y,X,A = Item
+B = Jump
+L = Alt
+ST = Menu
+SE = Switch Sets
+
+============================SKILLS==================================
+Misc:
+Lv1:
+Kneel + B + hollow platform = Go down through platform
+Left/Right + Ladder = Ladder Grab
+Ladder Grab + Up/Forward Back/Down = Ascend/Decend
+
+Lv2:
+Left/Right + Ledge = Ledge Grab
+Ledge Grab + Forward/Up = Lift Self onto Ledge
+Ledge Grab + Release Down / Back (>2 sec) = Ledge Drop
+
+Lv3:
+Left/Right + Wall = Wall Ride
+
+
+Defense:
+Lv1:
+Guard + Alt = Shield Special 1
+Alt + Guard = Shield Special 2
+R = Guard
+
+Lv2:
+Kneel + R = Kneel Guard
+
+Lv3:
+Guard + Left/Right = Guarding Strafe
+
+Lv4:
+Jump + R = Aerial Guard
+
+Lv5:
+Ledge Grab + Guard = Ledge Guard
+Ladder Grab + R = Ladder Guard
+Ladder Guard + Up/Forward Back/Down = Ascend/Decend Slowly
+
+
+Evasion:
+Lv1:
+Run + R = Roll Forward
+
+Lv2:
+Guarding Strafe + Back = Back Flip
+
+
+Jump:
+Lv1:
+B = Jump
+
+Lv2:
+Jump + Release Down = Drop
+
+Lv3:
+Jump + Left/Right + B = Aerial Dash
+
+Lv4:
+Wall Ride + B = Wall Jump
+Ledge Grab + Back + B = Ledge Jump
+Ledge Grab + B = Jump
+Ladder Grab + B = Wall Jump
+
+============================COMBOS============================
+Y,X,A = Item Use
+L = Charge
+B = Jump
+
+Y + ...
+Left Right/Forward/Back/Up/Down
+Alt/Hold/MultiPress
+Ground/Air/Wall
+(if Air) Rising/Falling/Dropping
+
+============================WEAPONS============================
+Sword:
+ATK:1~6
+RNG:3
+DEF:3
+LV	Special Name		DMG
+1	Physical Counter	3
+2	Projectile Shield 	3
+ 
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Slash			Y						3	1	
+2	Thrust			LR+Y					2	1	speed+
+3	Grass Cut		D+Y						2	1	speed+
+5	Moon Slash		U+Y						3	1	cool+  push up
+2	Rapid Thrust	Y+Multipress			1	4	multi press for all 5
+5	2 Handed Slash	Alt+Y					5	1	
+4	Spin Attack		Hold+Y					6	1	time++  push out
+1	Air Slash		Air+Y					3	1	
+3	Pedestal Stab	Air+D+Y					4	1	cool+  push away
+4	Upward Thrust	Air+U+Y					4	1	cool+  push out
+
+
+Spear:
+ATK:2~3
+RNG:6
+DEF:4
+LV	Special Name		DMG
+1	Physical Counter	6
+2	Projectile Counter	4
+ 
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Thrust			Any Direction+Y			2	1	Depends on direction
+1	Slash			Alt+Y					2	1	
+2	Free Form Stab  Y + Any Direction		2	inf	Hold Y and press other directions for directed thrusts
+3	Free Form Slash	Alt+Hold Y+Any Dir 		2	inf	Hold Y and press other directions for continual slashes
+4	Spinning Sweep	Ground+D+Y				3	2	cool+  trip  
+4	Polearm Tornado	Ground+D+Hold Y			2	3	cool++  trip  
+
+Bow:
+ATK:1~5
+RNG:1~20
+DEF:1
+LV	Special Name		DMG
+1	Evasive Manuever	0
+1	Projectile Return	x
+
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Quick Shot		Y						1	1	Projectile
+1	Aim				Hold Y					2	1	Release to fire, press direction to aim
+2	Quick Dir Shot	Any Dir + Y				1	1	Projectile, direction dependant
+3	Power Shot		Alt+Y					4	1	speed--  push back
+4	Aim Power Shot	Alt+Hold Y				5	1	speed--  push back  Release to fire, press direction to aim
+5	Quick Dir Power	Alt + Any Dir + Y		4	1	speed--  push back  Projectile, direction dependant
+
+Bomb:
+ATK:5~9
+RNG:5
+DEF:0
+Guard Effect: Explode on impact, self DMG
+ 
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Drop			D+Y						5	1	Bomb Placement
+1	Throw			Release Y				5	1	Throw Bomb
+2	Carry			Hold Y					5	1	Hold Bomb
+3	Quick Throw		Any Dir + Release Y		5	1	direction dependant
+4	Power Bomb		Alt+D+Y					9	2	wait++  time++  cool++
+5	Power Bomb Roll	Alt+Hold Y				9	2	wait++  time++  cool++
+
+Boomerang:
+Exact same as Bow, but returns for 2 hits and half the range
+No guard specials
+
+Hookshot:
+Exact same as Bow, but has pull effect
+No guard specials
+
+Hammer:
+ATK:2~8
+RNG:1~20
+DEF:4
+LV	Special Name		DMG
+1	Projectile Return	x
+
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Slam			Hold Y					4~8	1	Hold for more DMG
+2	Swing			Alt+Y					3~7	1	wait+  cool+  push out+
+3	Quake			D+Hold Y				2~4	1	Hold for more DMG, creates wave  push out
+4	Up Heave		U+Hold Y				2~4	1	Hold for more DMG, push up
+
+Fire Gem:
+ATK:1~6
+RNG:1~20
+DEF:1
+LV	Guard Special Name	DMG
+1	Fire Wall			4
+
+LV	Name			Button Combo			DMG	X	EFFECT
+1	Fireball		Hold Y					1~6	1	Hold for more DMG
+2	Ignite			Alt+Hold Y				1~3	1	cursor placement, Hold for more DMG/RNG
+3	Flare Tornado	U+Hold Y				1~2	3~6	Hold for more DMG/X/RNG  push up
+4	Exhaust			D+Hold Y				2~4	1	Hold for more DMG/RNG  push out
+
+============================PUZZLES============================
+
+Traditional:
+Slap Switch
+Touch Switch
+Hold Switch
+Jump on box near ledge
+Switch + Timed Door
+Switch "Shooting Gallery"
+Key + Door
+
+Unique:
+Name:Monster Assistant
+Desc: Hand Activated Switch is unreachable, able to use monster to reach it.
+Ex: Fighting a Warhog, switch is on a tall platform towards the end of the room.  If one attempts to jump ontop of the Warhog, Warhog does an upward attack deflection and upon landing pushes back.  Fights normally otherwise.  Once HP is lowered about halfway, it may initiate a charge attack where it lowers its head to charge forward.  Jump over it during the charge, it will hit the wall and be stunned against the wall.  Jump up its back and use it to jump onto the platform to activate the switch.
+
+Name: Location Race
+Desc: Upon entering room, object slowly rolls towards the end door, once reaching it; it will close the end door, forcing a restart of the room.  Must reach end door before objects reaches first.
+Ex: Enter a room, floor filled with oil.  hit switch to open end door, but breaks open a path along the top of the room where a rock of fire slowly rolls to a hole.
+
+Name: King of the Hill
+Desc: Player must stand on a large button that slowly decends.  Once decended all the way, the end door will stay open.  Opponents will attempt to keep player off.
+
+===============DUNGEON TEMPLATES===================
+
+Name: Farian Volcano - Dragon's Lair
+Theme: Rock, Light, Fire
+
++---+
+1   2
++---+
+
+1 Exit - Press UP to Exit
+2 Door - Press UP to Open
+
+===============BEASTS===================
+Name: Bat
+HP: 5
